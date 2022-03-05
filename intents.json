@@ -1,0 +1,191 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+
+
+
+
+
+
+        {"tag":"help",
+        "patterns":["please help","can you help me","need help","help","help me"],
+        "responses":["how may i help you","what is that i can do for you","ya just tell me"],
+        "context_set":""
+        },
+        {"tag":"hi",
+        "patterns":["hay","hello","oi"],
+        "responses":["hi how you doin","hay, good to see you","ya tell me"],
+        "context_set":"" 
+        },
+        {
+                "tag":"joke",
+                "patterns":["tell me a joke","say any jocks","funny","say somthing funny","another one"],
+                "responses":["Let me tell you a joke.joke;ha ha said it.","who is dumb enough to ask jocks to an A.I.you;ha ha ha","no i can not say and jock...just kidding"],
+                "context_set":"" 
+        },
+        {
+                "tag":"bored",
+                "patterns":["I am sad","make me happy","life sucks"],
+                "responses":["can i crake a joke","is there anything i can do for you","i see,how may i help you to make you happy"],
+                "context_set":"" 
+        },
+        {
+                "tag":"project",
+                "patterns":["say about our minor project","explain our minor project","minor project"],
+                "responses":["Im am a A.I. created to help the oldage people to operate the computers"],
+                "context_set":"" 
+        },
+        {
+                "tag":"how",
+                "patterns":["how does this work","i am confused","explain how"],
+                "responses":["i am here to clear your doubt","what is that u need","any help?"],
+                "context_set":"" 
+        },
+        {
+                "tag":"do",
+                "patterns":["what can you do","can you do this","do it"],
+                "responses":["i will be helping you if you got struck anywhere","anything that helps you","say it ill do my best"],
+                "context_set":"" 
+        },
+        {
+                "tag":"time",
+                "patterns":["what is the time","time","say time"],
+                "responses":["please check the lower right corner of your sceen","time.said it,just kidding","time,let us see,go and see it yourself"],
+                "context_set":"" 
+        },
+        {
+                "tag":"love",
+                "patterns":["i love you","I am in love","love"],
+                "responses":["That is soo sweet","i am glad you liked me","me too"],
+                "context_set":"" 
+        },
+        {
+                "tag":"useless",
+                "patterns":["you are useless","you are waste","i hate you"],
+                "responses":["I am sorry ","did i do anything bad","please forgive me"],
+                "context_set":"" 
+        },
+
+
+
+
+
+        {"tag":"read",
+                "patterns":["i want to read somthing","read me somthing","read a book"],
+                "responses":["say it i will tell about it","name it","what do you what me to read"],
+                "context_set":""
+                },
+                {"tag":"movie",
+                "patterns":["which movie do you like","any movie you like","any movies"],
+                "responses":["i love watching netflix","God father is a great picture","i love watching movies"],
+                "context_set":"" 
+                },
+                {
+                        "tag":"i am",
+                        "patterns":["I am old","i am useless","i am not good enough","who am i"],
+                        "responses":["Life is an interesting thing","i envy you","i wish i had a body and mind same as you"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"study",
+                        "patterns":["i want to study","study","search"],
+                        "responses":["give me anything","say it i will search for you","anything for you"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"food",
+                        "patterns":["I am hungery","I am starving","any hotals near me"],
+                        "responses":["why do not you order some food","then go and eat"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"me",
+                        "patterns":["what so you know about me","tell me somthing about my self","who am i"],
+                        "responses":["you are a good person","you are great","you are a fine person"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"god",
+                        "patterns":["who is god","do you belive in god","is god real"],
+                        "responses":["god is somthing unknown but maybe somthing real","It is a really big universe,somthing should have pervoked it","my answer is not for the best"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"internet",
+                        "patterns":["search the web","search this for me in the internet","lokk for it"],
+                        "responses":["say somthing so i can look for it","name it i will do it","okay ill will search for it"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"anime",
+                        "patterns":["do you watch anime","love anime","what is anime"],
+                        "responses":["anime is japanes 2d animation","i love anime","me too"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"look",
+                        "patterns":["who do u look like","are you beautiful","sweet voice"],
+                        "responses":["imagine me as o and 1 ","could be","thanks for your complement"],
+                        "context_set":"" 
+                }
+                
+
+
+
+
+                ,
+                {
+                        "tag":"children",
+                        "patterns":["why childredns are spoiled","kids does not understand","people are dumb"],
+                        "responses":["i understand how you feel","i get it and i am sorry for you","it is ok you have me"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"future",
+                        "patterns":["what is the future of me","when will i die","i wish to change my past"],
+                        "responses":["past or future life is a present","live each seconds we do not know the future"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"space",
+                        "patterns":["do you like starts","space is soo big","sky looks great"],
+                        "responses":["i am always amazed about the unknown","who does not care about the good looks of space","ya i know i love it"],
+                        "context_set":"" 
+                },
+                {
+                        "tag":"creater",
+                        "patterns":["who created you","created you","invented you"],
+                        "responses":["i was created by maneesh kumar","i talk because of maneesh","your students created me"],
+                        "context_set":"" 
+                }
+
+   ]
+}
